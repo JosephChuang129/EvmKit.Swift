@@ -74,7 +74,7 @@ extension RpcSource {
     }
 
     public static func polygonRpcHttp() -> RpcSource {
-        .http(urls: [URL(string: "https://matic-mumbai.chainstacklabs.com")!], auth: nil)
+        .http(urls: [URL(string: "https://rpc-mumbai.maticvigil.com/")!], auth: nil)
     }
 
     public static func avaxNetworkHttp() -> RpcSource {
