@@ -69,14 +69,14 @@ extension TransactionSource {
     public static func polygonscan(apiKey: String) -> TransactionSource {
         TransactionSource(
                 name: "polygonscan.com",
-                type: .etherscan(apiBaseUrl: "https://api.polygonscan.com", txBaseUrl: "https://polygonscan.com", apiKey: apiKey)
+                type: .etherscan(apiBaseUrl: "https://api-testnet.polygonscan.com", txBaseUrl: "https://mumbai.polygonscan.com", apiKey: apiKey)
         )
     }
 
     public static func snowtrace(apiKey: String) -> TransactionSource {
         TransactionSource(
                 name: "snowtrace.io",
-                type: .etherscan(apiBaseUrl: "https://api.snowtrace.io", txBaseUrl: "https://snowtrace.io", apiKey: apiKey)
+                type: .etherscan(apiBaseUrl: "https://api-testnet.snowtrace.io", txBaseUrl: "https://testnet.snowtrace.io", apiKey: apiKey)
         )
     }
 

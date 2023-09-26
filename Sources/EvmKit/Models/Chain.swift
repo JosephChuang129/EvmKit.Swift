@@ -52,7 +52,7 @@ extension Chain {
 
     public static var polygon: Chain {
         Chain(
-                id: 137,
+                id: 80001,
                 coinType: 60, // actually Matic has coin type 966
                 syncInterval: 15,
                 gasLimit: 10_000_000,
@@ -62,7 +62,7 @@ extension Chain {
 
     public static var avalanche: Chain {
         Chain(
-                id: 43114,
+                id: 43113,
                 coinType: 60,
                 syncInterval: 15,
                 gasLimit: 10_000_000,
